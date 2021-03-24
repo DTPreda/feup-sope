@@ -1,0 +1,43 @@
+TP 10/02
+
+Exercise Sheet 1
+
+1.a) False, it can be used with other OS as well.
+
+b) -Wall warns the user, and prevents compiling, for example, when a variable
+is declared but is unused.
+
+Warns the user about questionable blocks of code that can easily be
+corrected.
+
+c) Done I guess?
+
+2. Dynamic Linking makes is so that the executable file has the mininum size
+possible (only data and code). However, in the case of an updating breaking 
+the code, we have update all the files affected by the changes.
+
+3.a) No, as atexit only calls a function at normal process termination.
+b) Done.
+
+5. Command line arguments are arguments passed to the main function via the
+command line, when the code is executed. Environment variables are a kind of
+variables, available to any child process, that can affect the execution of
+said childs.
+
+a, b, c) Done
+
+6. Trying to open a non-existent file will fail.
+a, b, c) Done
+
+7. Interface between the user and the computer hardware. Allocating the
+hardware of the computer.
+
+8.
+
+i. Yes, multiple processes are being run at the same time.
+ii. Yes, it is multiuser (e.g. my user and root at the same time).
+iii. Yes, by ps aux we can see multiprogramming and multitasking. 
+
+9. a) date can be used for read operations in user mode, while write
+operations requires kernel mode
+b)  

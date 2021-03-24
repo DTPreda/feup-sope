@@ -1,0 +1,37 @@
+1. Programa - conjunto de instrucoes
+   Processo - instancia de um programa em execucao
+   Thread   - segmento de um programa em execucao, que pode ocorrer de forma concorrencial com
+              outros threads, de forma a levar a cabo uma determinada tarefa de um programa
+
+2.a)
+   Process Identifier - PID
+   Parent Process Identifier - PPID
+   real U/GID - User/Group Identifier of who initiated the process
+   priority - info for process scheduling
+   current dir - directory to where names of files are referenced by default
+ 
+b)
+  Program counter, Registers, Stack, State
+
+c) a) e b) em tabela
+
+3.a) ps u lists all processes in user format.
+     ps x lists all processes in register format. Also shows the state of the process.
+     ps a lists all processes with a terminal. Alongisde with x, lists all processes
+b) init -> systemd -> plasmashell -> konsole -> bash -> ps
+
+c) init -> systemd -> plasmashell -> konsole -> bash -> pstree
+
+4. New vai para Ready, e nada vai para New; Running vai para Terminated, e Terminated nao vai para nada
+
+5. Done
+
+6. Advantage of process over thread - Obrigam a ter protocolos do comunicacao 
+                                      (mais seguro)
+   Disadvantage or process over thread - processos nao partilham memoria, pelo 
+                                         que nao podem trabalhar em conjunto
+
+7. Deadlock - signals block processes in a way that it is impossible for them to 
+              unblock themselves
+
+8. 
