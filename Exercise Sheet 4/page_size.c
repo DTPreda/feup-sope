@@ -13,7 +13,7 @@ int counter = 0;
 void sig_handler(int signo){
     fprintf(stdout, "Page size, returned by sysconf: %li\n", sysconf(_SC_PAGE_SIZE));
     fprintf(stdout, "Segmentation fault (core dumped), %i\n", getpid());
-    for(int i = 1; 1; i++){
+    for (int i = 1; 1; i++) {
         *(p - i) = 'a';
         counter++;
         fprintf(stdout, "%i\n", counter);
@@ -37,7 +37,7 @@ void end(){
     fprintf(stdout, "%i\n", counter);
 }
 
-int main (int argc, char* argv[]){
+int main (int argc, char* argv[]) {
     set_handlers();
 
     p = (char*) malloc (1);
